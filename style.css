@@ -1,0 +1,33 @@
+
+ /* Font styling  */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color:black;
+    background-color: #ECDFCC;
+}
+/* First text of page */
+.haha {
+      color: red;
+      text-align: center;  
+}
+
+/*  Style the headings  */
+h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.li, ul ,ol {
+    margin-bottom: 10px;
+}
+
+
+* {
+    text-align: center;
+}
+.haha {
+    text-align: left;
+}
