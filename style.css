@@ -42,3 +42,7 @@ img {
     background-color: cadetblue;
     margin: 0px 40px;
 }
+a:hover{
+    background-color: white;
+    font-size: 18px;
+}
