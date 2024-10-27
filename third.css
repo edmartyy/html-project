@@ -26,9 +26,9 @@ body {
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
     border: 3px solid #f4f4f9;
     margin-bottom: 15px;
 }
@@ -150,4 +150,7 @@ a {
 
 a:hover {
     background-color: darkgray;
+}
+.href{
+    margin-top: 50px;
 }
