@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #232526, #414345);
+    color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.profile-section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f4f4f9;
+    margin-bottom: 15px;
+}
+
+.profile-section h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #c0c0c0;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1em;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+.skills-section {
+    margin: 20px 0;
+}
+
+.skills-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-tag {
+    background: #565656;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #f4f4f9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.projects-section {
+    margin: 30px 0;
+}
+
+.projects-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    color: #f4f4f9;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #c0c0c0;
+    margin: 10px 0;
+}
+
+.project-card button {
+    background-color: #f4f4f9;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.project-card button:hover {
+    background-color: #e0e0e0;
+}
+
+.contact-section {
+    margin: 30px 0;
+}
+
+.contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1em;
+    color: #cccccc;
+    line-height: 1.5;
+}
+a {
+    background-color: white;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px;
+    align-self: center;
+}
+
+a:hover {
+    background-color: darkgray;
+}
