@@ -12,9 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 
-.container {
+.container1 {
     width: 90%;
     max-width: 800px;
     text-align: center;

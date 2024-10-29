@@ -6,7 +6,8 @@ body {
     background-color: #ECDFCC;
     text-align: left;
     margin: auto;
-    
+    padding: auto;
+    box-sizing: border-box;
 }
 
 .container {
@@ -99,3 +100,4 @@ a:hover {
     margin: 40px;
     color: white;
   }
+  
